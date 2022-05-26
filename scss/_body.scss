@@ -1,0 +1,35 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+html {
+	font-size: 62.5%;
+}
+/* RESETEANDO TODOS LOS MARGENES */
+body {
+	background-color: $color_2;
+	font-family: $font-family_1;
+	font-size: 16px;
+}
+.padreGrid {
+	display: grid;
+}
+.bodyPadreGrid {
+	display: grid;
+	grid-template-areas: " header header" " imgSecundaria mainForm " " footer footer ";
+}
+.mainForm {
+	grid-area: mainForm;
+}
+.footer {
+	grid-area: footer;
+}
+.headerI {
+	grid-area: headerI;
+}
+.mainI {
+	grid-area: mainI;
+}
+.footerI {
+	grid-area: footerI;
+}

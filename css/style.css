@@ -1,0 +1,408 @@
+/* RESETEANDO TODOS LOS MARGENES */
+/* AGREGANDO CODIGO RAIZ DE PALETA DE COLORES DE LA WEB */
+/* AGREGANDO ANIMACION CON CURSOR EN BARRA DE NAV */
+/* AGREGANDO ANIMACION CON EL CURSOR A NAV SECUNDARIO  */
+/* ESTILO A FORMULARIO*/
+/* AGREGANDO ANIMACION CON CURSOR A BOTONES */
+/* APLICAMOS GRID AREA paginas con formulario*/
+/*MEDIA QUERIES AL INDEX*/
+/* TIPO DE FUENTE DE LA PAGINA DE WEB */
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+/* Agregando variables y paleta de colores*/
+* {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+html {
+  font-size: 62.5%; }
+
+/* RESETEANDO TODOS LOS MARGENES */
+body {
+  background-color: #EDE7E3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px; }
+
+.padreGrid {
+  display: grid; }
+
+.bodyPadreGrid {
+  display: grid;
+  grid-template-areas: " header header" " imgSecundaria mainForm " " footer footer "; }
+
+.mainForm {
+  grid-area: mainForm; }
+
+.footer {
+  grid-area: footer; }
+
+.headerI {
+  grid-area: headerI; }
+
+.mainI {
+  grid-area: mainI; }
+
+.footerI {
+  grid-area: footerI; }
+
+footer {
+  width: 100%;
+  padding: 2rem;
+  font-weight: bold;
+  color: #EDE7E3;
+  text-align: center;
+  background-color: #489FB5; }
+
+.logo {
+  width: 90px; }
+
+.tituloI {
+  font-size: 4.5rem;
+  text-align: center;
+  color: #16697A; }
+
+.titulo {
+  font-size: 4.5rem;
+  text-align: center;
+  color: #16697A; }
+
+.nav-bg {
+  background-color: #489FB5; }
+
+header {
+  width: 100%;
+  grid-area: header; }
+
+.navegacionPrincipal {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; }
+  .navegacionPrincipal a {
+    color: #EDE7E3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 30px; }
+    .navegacionPrincipal a:hover {
+      background-color: #FFA62B;
+      color: #212121;
+      padding: 0.1rem;
+      cursor: pointer; }
+
+#buscador {
+  width: 35%;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 17px; }
+
+.navSecundario {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2rem;
+  background-color: #EDE7E3; }
+  .navSecundario a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: bolder; }
+    .navSecundario a:hover {
+      background-color: #16697A;
+      color: #EDE7E3;
+      padding: 2rem;
+      cursor: pointer; }
+
+.subtitulo {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #16697A; }
+
+.textoInicial {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  text-align: center;
+  font-weight: bold;
+  color: #212121; }
+  .textoInicial p {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 17px; }
+
+form {
+  width: 450px;
+  margin-right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px; }
+  form p {
+    margin-bottom: 20px;
+    font-size: 1.7rem; }
+
+.formTittle {
+  font-size: 2.8rem;
+  text-align: center;
+  color: #16697A;
+  margin: 0;
+  margin-bottom: 20px; }
+
+.text {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 17px; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-height: 100%; }
+
+.boton {
+  background: #16697A;
+  font-size: 2rem;
+  color: #EDE7E3;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 17px; }
+  .boton:hover {
+    background-color: #FFA62B;
+    color: #212121;
+    padding: 2.5rem;
+    cursor: pointer; }
+
+.imgPrincipal {
+  border: 2px solid #FFA62B;
+  border-radius: 10px; }
+
+.imgP {
+  border: 2px solid #FFA62B;
+  border-radius: 10px; }
+
+.imgPosition {
+  display: grid;
+  grid-template-areas: "caja1 caja2 caja3"; }
+
+.caja1 {
+  grid-area: caja1; }
+
+.caja2 {
+  grid-area: caja2; }
+
+.caja3 {
+  grid-area: caja3; }
+
+.imgSecundaria {
+  margin-right: 0;
+  height: 100%;
+  width: 100%;
+  grid-area: imgSecundaria; }
+
+.ofertasImg {
+  margin-top: 20px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.novedadesImg {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.divIframe {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  background-color: #212121;
+  border: 3px solid #FFA62B; }
+  .divIframe iframe {
+    justify-content: center; }
+
+.marcas {
+  font-size: 3rem;
+  display: grid;
+  color: #FFA62B;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  border: 3px solid #FFA62B;
+  list-style: none;
+  width: 60%;
+  font-weight: bolder; }
+
+@media (max-width: 768px) {
+  body {
+    align-items: center; }
+  .navegacionPrincipal {
+    height: 100%;
+    flex-direction: column; }
+  #buscador {
+    width: 80%;
+    margin-left: 70px; }
+  .subtitulo {
+    width: 30%; }
+  form {
+    margin-left: 0;
+    width: 100%; }
+  .mainForm {
+    margin-left: 0;
+    width: 100%;
+    height: 100%; }
+  .textoInicial {
+    width: 50%; } }
+
+@media (max-width: 768px) {
+  .imgSecundaria {
+    display: none; }
+  .navbar-brand {
+    margin-left: 0; } }
+
+@media (max-width: 768px) {
+  .bodyGridI {
+    display: grid;
+    grid-template-areas: "headerI headerI" "mainI mainI" "footerI footerI"; } }
+
+@media (max-width: 780px) {
+  .imgPosition {
+    display: none; } }
+
+@media (max-width: 440px) {
+  .tituloI {
+    font-size: 3.2rem;
+    margin-right: 175px; }
+  .navegacionPrincipalI a {
+    align-items: center; } }
+
+@media (max-width: 800px) {
+  .navSecundario {
+    width: 100%; }
+  .ofertasImg {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+  .novedadesImg {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }
+
+@media (max-width: 450px) {
+  .navSecundario a {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center; }
+  .ofertasImg {
+    margin-top: 20px;
+    display: grid;
+    margin-left: 0;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+  .novedadesImg {
+    display: grid;
+    margin-left: 0;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }
+
+@media (max-width: 768px) {
+  body {
+    align-items: center; }
+  .navegacionPrincipal {
+    height: 100%;
+    flex-direction: column; }
+  #buscador {
+    width: 80%;
+    margin-left: 70px; }
+  .subtitulo {
+    width: 30%; }
+  form {
+    margin-left: 0;
+    width: 100%; }
+  .mainForm {
+    margin-left: 0;
+    width: 100%;
+    height: 100%; }
+  .textoInicial {
+    width: 50%; } }
+
+@media (max-width: 768px) {
+  .imgSecundaria {
+    display: none; }
+  .navbar-brand {
+    margin-left: 0; } }
+
+@media (max-width: 768px) {
+  .bodyGridI {
+    display: grid;
+    grid-template-areas: "headerI headerI" "mainI mainI" "footerI footerI"; } }
+
+@media (max-width: 780px) {
+  .imgPosition {
+    display: none; } }
+
+@media (max-width: 440px) {
+  .tituloI {
+    font-size: 3.2rem;
+    margin-right: 175px; }
+  .navegacionPrincipalI a {
+    align-items: center; } }
+
+@media (max-width: 800px) {
+  .navSecundario {
+    width: 100%; }
+  .ofertasImg {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+  .novedadesImg {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }
+
+@media (max-width: 450px) {
+  .navSecundario a {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center; }
+  .ofertasImg {
+    margin-top: 20px;
+    display: grid;
+    margin-left: 0;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+  .novedadesImg {
+    display: grid;
+    margin-left: 0;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); } }

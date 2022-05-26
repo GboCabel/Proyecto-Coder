@@ -1,15 +1,3 @@
-
-/* RESETEANDO TODOS LOS MARGENES */
-/* AGREGANDO CODIGO RAIZ DE PALETA DE COLORES DE LA WEB */
-/* AGREGANDO ANIMACION CON CURSOR EN BARRA DE NAV */
-/* AGREGANDO ANIMACION CON EL CURSOR A NAV SECUNDARIO  */
-/* ESTILO A FORMULARIO*/
-/* AGREGANDO ANIMACION CON CURSOR A BOTONES */
-/* APLICAMOS GRID AREA paginas con formulario*/
-/*MEDIA QUERIES AL INDEX*/
-
-@import"variables","body", "footer","header","main","mq";
-
 @media (max-width: 768px) {
 	body {
 		align-items: center;
