@@ -36,7 +36,7 @@ textarea {
 .boton {
 	background: #16697A;
 	font-size: 2rem;
-	color: $color_4;
+	color: $color_2;
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 20px;
@@ -44,18 +44,18 @@ textarea {
 	border-radius: 4px;
 	font-size: 17px;
 	&:hover {
-		background-color: $color_5;
+		background-color: $color_4;
 		color: $color_3;
 		padding: 2.5rem;
 		cursor: pointer;
 	}
 }
 .imgPrincipal {
-	border: 2px solid $color_5;
+	border: 2px solid $color_4;
 	border-radius: 10px;
 }
 .imgP {
-	border: 2px solid $color_5;
+	border: 2px solid $color_4;
 	border-radius: 10px;
 }
 .imgPosition {
@@ -96,7 +96,7 @@ textarea {
 	justify-content: center;
 	width: 60%;
 	background-color: $color_3;
-	border: 3px solid $color_5;
+	border: 3px solid $color_4;
 	iframe {
 		justify-content: center;
 	}
@@ -104,11 +104,11 @@ textarea {
 .marcas {
 	font-size: 3rem;
 	display: grid;
-	color: $color_5;
+	color: $color_4;
 	align-items: center;
 	flex-direction: column;
 	background-color: $color_3;
-	border: 3px solid $color_5;
+	border: 3px solid $color_4;
 	list-style: none;
 	width: 60%;
 	font-weight: bolder;
