@@ -21,7 +21,7 @@ header {
 .navegacionPrincipal {
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 0;
 	a {
 		color: $color_2;
 		text-decoration: none;
@@ -37,7 +37,7 @@ header {
 	}
 }
 #buscador {
-	width: 35%;
+	width: 25%;
 	padding: 7px;
 	box-sizing: border-box;
 	border-radius: 4px;

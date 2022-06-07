@@ -5,11 +5,13 @@ form {
 	padding: 10px 20px;
 	box-sizing: border-box;
 	border-radius: 7px;
+
 	p {
 		margin-bottom: 20px;
 		font-size: 1.7rem;
 	}
 }
+
 .formTittle {
 	font-size: 2.8rem;
 	text-align: center;
@@ -19,18 +21,18 @@ form {
 }
 
 .text {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 17px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 17px;
 }
 
 textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-height: 100%;
+	min-height: 100px;
+	max-height: 200px;
+	max-height: 100%;
 }
 
 .boton {
@@ -43,6 +45,7 @@ textarea {
 	box-sizing: border-box;
 	border-radius: 4px;
 	font-size: 17px;
+
 	&:hover {
 		background-color: $color_4;
 		color: $color_3;
@@ -50,33 +53,42 @@ textarea {
 		cursor: pointer;
 	}
 }
+
 .imgPrincipal {
 	border: 2px solid $color_4;
 	border-radius: 10px;
+
 }
+
 .imgP {
-	border: 2px solid $color_4;
-	border-radius: 10px;
+	@extend .imgPrincipal;
+	max-width: 40rem;
 }
+
 .imgPosition {
 	display: grid;
 	grid-template-areas: "caja1 caja2 caja3";
 }
+
 .caja1 {
 	grid-area: caja1;
 }
+
 .caja2 {
 	grid-area: caja2;
 }
+
 .caja3 {
 	grid-area: caja3;
 }
+
 .imgSecundaria {
 	margin-right: 0;
 	height: 100%;
 	width: 100%;
 	grid-area: imgSecundaria;
 }
+
 .ofertasImg {
 	margin-top: 20px;
 	display: grid;
@@ -84,12 +96,14 @@ textarea {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 }
+
 .novedadesImg {
 	display: grid;
 	gap: 50px;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 }
+
 .divIframe {
 	margin-top: 30px;
 	display: flex;
@@ -97,10 +111,12 @@ textarea {
 	width: 60%;
 	background-color: $color_3;
 	border: 3px solid $color_4;
+
 	iframe {
 		justify-content: center;
 	}
 }
+
 .marcas {
 	font-size: 3rem;
 	display: grid;

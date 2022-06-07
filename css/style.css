@@ -67,7 +67,7 @@ header {
 .navegacionPrincipal {
   display: flex;
   justify-content: center;
-  margin: 0 auto; }
+  margin: 0; }
   .navegacionPrincipal a {
     color: #EDE7E3;
     text-decoration: none;
@@ -81,7 +81,7 @@ header {
       cursor: pointer; }
 
 #buscador {
-  width: 35%;
+  width: 25%;
   padding: 7px;
   box-sizing: border-box;
   border-radius: 4px;
@@ -173,13 +173,12 @@ textarea {
     padding: 2.5rem;
     cursor: pointer; }
 
-.imgPrincipal {
+.imgPrincipal, .imgP {
   border: 2px solid #FFA62B;
   border-radius: 10px; }
 
 .imgP {
-  border: 2px solid #FFA62B;
-  border-radius: 10px; }
+  max-width: 40rem; }
 
 .imgPosition {
   display: grid;
