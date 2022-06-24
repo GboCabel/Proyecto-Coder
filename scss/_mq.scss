@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	body {
 		align-items: center;
 	}
@@ -9,7 +9,7 @@
 	}
 
 	#buscador {
-		width: 80%;
+		width: 78%;
 		margin-left: 70px;
 	}
 
@@ -56,7 +56,7 @@
 	}
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
 	.tituloI {
 		font-size: 3.2rem;
 		margin-right: 175px;
@@ -66,6 +66,15 @@
 		a {
 			align-items: center;
 		}
+	}
+
+	#buscador {
+		width: 78%;
+		margin-left: 35px;
+	}
+
+	.imgP {
+		max-width: 20rem;
 	}
 }
 
@@ -119,5 +128,16 @@
 		gap: 20px;
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 360px) {
+	.marcas {
+		font-size: 1.5rem;
+	}
+
+	.titulo {
+		font-size: 3rem;
+
 	}
 }
